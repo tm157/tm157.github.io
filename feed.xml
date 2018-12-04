@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Mohit Sharma</title>
+        <description>Mohit Sharma is mostly a CS grad student.</description>
+        <link>http://sergeykarayev.com</link>
+        <atom:link href="http://sergeykarayev.com/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>&lt;p&gt;Path Finder&lt;/p&gt;
+</title>
+                
+                    <description>An iOS app for exploring different path finding algorithms and associated heuristics. I've implemented BFS, A*, weighted-A*, Hierarchical-A* and Jump Point Search.
+The algorithms have been implemented in both Objective-C and Swift, hence you can mix and match as you please.
+</description>
+                
+                <pubDate>Tue, 20 May 2014 00:00:00 -0700</pubDate>
+                <link>http://github.com/mohitsharma0690/fudgeFactory</link>
+                <guid isPermaLink="true">http://github.com/mohitsharma0690/fudgeFactory</guid>
+            </item>
+        
+            <item>
+                <title>&lt;p&gt;Hide Retarded News&lt;/p&gt;
+</title>
+                
+<description>Long time ago, I was fed up with Google News showing me crap entertainment news even though I had customized it to filter these out. Out of this frustration, I created a script that allows me to remove selective Google News links by adding a &lt;p&gt;Hide News&lt;/&gt; link below each news item. 
+</description>
+                
+                <pubDate>Thu, 14 Nov 2013 00:00:00 -0800</pubDate>
+                <link>http://github.com/mohitsharma0690/script-hacking/blob/master/hideRetardedNews.js</link>
+                <guid isPermaLink="true">http://github.com/mohitsharma0690/script-hacking/blob/master/hideRetardedNews.js</guid>
+            </item>
+        
+            <item>
+                <title>&lt;p&gt;Vim to play Music.&lt;/p&gt;
+</title>
+                
+                    <description>A silly little script to search and play a song in Vim using YouTube and VLC.
+</description>
+                
+                <pubDate>Wed, 31 Jul 2013 00:00:00 -0700</pubDate>
+                <link>https://github.com/mohitsharma0690/vim-play-music</link>
+                <guid isPermaLink="true">https://github.com/mohitsharma0690/vim-play-music</guid>
+            </item>
+
+    </channel>
+</rss>
