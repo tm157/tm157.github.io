@@ -4,7 +4,7 @@ CUR_BRANCH=`git rev-parse --abbrev-ref HEAD`
 MSG=`git log --oneline -1`
 
 if [ $CUR_BRANCH='source' ]; then
-    git push origin source
+    # git push origin source
 
     # jekyll build
     bundler exec jekyll build
