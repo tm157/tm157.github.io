@@ -7287,18 +7287,20 @@ html, body {
 
 .site_title {
   font-weight: bold;
-  margin-left: 5rem; }
+  margin-left: 5rem; 
+  padding-left: 100px;
+}
 
 .avatar {
   position: absolute;
   top: .3333rem;
-  width: 4rem;
-  height: 4rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
-  background: url(/images/mohit_headshot.jpg) no-repeat;
-  background-size: 4rem; }
+  background: url(/images/tanya_headshot/tanya_400x400.jpg) no-repeat;
+  background-size: 10rem; }
 
 strong {
   font-weight: bold; }
@@ -7456,4 +7458,5 @@ hr {
   vertical-align: top; }
 
 .header {
-  margin-top: 1em; }
+  margin-top: 1em;
+  height: 180px}
