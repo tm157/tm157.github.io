@@ -23,7 +23,7 @@
     <meta name="author" content="Tanya Marwah">
     <link rel="alternate" type="application/rss+xml"  href="http://mohitsharma0690.github.io/feed.xml" title="Mohit Sharma RSS Feed">
 
-    <title>Tanya Marwah | Object Grasping using Hierarchical Reinforcement Learning</title>
+    <title>Tanya Marwah | Improving Task-Oriented Language Grounding using Disentangled Representations</title>
 
     <link rel="stylesheet" media="all" href="/css/mine.css" />
     <!--[if lt IE 9]>
@@ -80,7 +80,7 @@
                             Tanya Marwah
                         </a>
                     </p>
-                    <h1><p>Object Grasping using Hierarchical Reinforcement Learning</p></h1>
+                    <h1><p>Improving Task-Oriented Language Grounding using Disentangled Representations</p></h1>
                 
             </div>
 
@@ -88,12 +88,29 @@
                 
                 <aside>
                     
-                        Published 04 Dec 2018.
+                        Published 02 Dec 2018.
                     
                 </aside>
-                <p>Something something somethign.</p>
+                <p>Task-oriented language grounding refers to the process of mapping the visual scene
+and actions in the environment with language instructions in order to perform a task
+based on a natural language instruction. Domain adaption and specifically, zero-
+shot task generalization in this scenario is an open research problem. We propose a
+novel multi-stage algorithm to improve the performance of the agent over existing
+methods. The proposed model aims to learn a disentangled representation of the
+visual scene using β-VAE and then combines it with the instruction-based text
+representation using a soft-attention mechanism. This generates a representation of
+the ‘instruction-conditioned’ visual scene which is robust to variations with respect
+to objects, actions and attributes like shape and color. This representation is then
+used to learn a policy using standard reinforcement learning methods to execute
+the instruction in the given scene. In addition to β-VAE, we also incorporate a
+recurrent attention mechanism in the VAE (making it similar to DRAW (1)) in an
+attempt to allow the foreground be distinguished from the background. We tested
+the effectiveness of the algorithm by running it on a 3D game simulator, ViZDoom.
+We found that for certain values of disentanglement parameter β, the training
+performance/accuracy indeed improves with different values of β performing well
+in different experimental settings.</p>
 
-<p><a href=""></a></p>
+<p><a href="/files/task_based_language_grounding/report.pdf">PDF</a></p>
 
                 
             </div>
