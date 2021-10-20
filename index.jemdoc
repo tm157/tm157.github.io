@@ -17,17 +17,21 @@ Here is my [CV.pdf CV], [https://github.com/tm157/ Github], and [https://scholar
 ~~~
 
 === Preprints
-- *Parametric Complexity Bounds for Approximating PDEs with Neural Networks*  \[[https://arxiv.org/abs/2103.02138 pdf]\] \n
-    Tanya Marwah, Zachary C. Lipton, Andrej Risteski 
+- *Benefits of Depth in Neural Approximations of PDEs* \n 
+   Tanya Marwah, Zachary C. Lipton, Jianfeng Lu, Andrej Risteski 
 
 
 === Publications 
+- *Parametric Complexity Bounds for Approximating PDEs with Neural Networks*  \[[https://arxiv.org/abs/2103.02138 pdf]\] \n
+    Tanya Marwah, Zachary C. Lipton, Andrej Risteski  \n 
+    Neural Information Processing Systems (NeurIPS), 2021 (Spotlight) \n 
+    The Symbiosis of Deep Learning and Differential Equations (DLDE), NeurIPS 2021, Workshop (Spotlight)
 -  *Attentive Semantic Video Generation using Captions*  \[[https://openaccess.thecvf.com/content_ICCV_2017/papers/Marwah_Attentive_Semantic_Video_ICCV_2017_paper.pdf pdf]\] \n
     Tanya Marwah\*, Gaurav Mittal\*, Vineeth N Balasubramanian  \n
     IEEE International Conference on Computer Vision (ICCV), 2017
 -  *Sync-DRAW: Automatic video generation using deep recurrent attentive architectures* \[[https://arxiv.org/pdf/1611.10314.pdf pdf]\] \n 
     Gaurav Mittal\*, Tanya Marwah\*, Vineeth N Balasubramanian \n
-    25th ACM international conference on Multimedia (ACM-MM), 2017 
+    25th ACM international conference on Multimedia (ACM-MM), 2017 (Oral)
 - *Sentiment dynamics in social media news channels* \n 
     Nagendra Kumar, Rakshita Nagalla, Tanya Marwah, Manish Singh \n 
     Online Social Networks and Media
