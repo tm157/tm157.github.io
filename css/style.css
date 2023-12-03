@@ -142,11 +142,11 @@ h2 { color: #393939; }
 
 h3, h4, h5, h6 { color: #494949; }
 
-a { color: #267CB9; text-decoration: none; }
-/* a { color: #970c0c; text-decoration: none; } */
+/* a { color: #267CB9; text-decoration: none; } */
+a { color: #32787E; text-decoration: none; }
 
 /* a:hover, a:focus { color: #069; font-weight: bold; } */
-a:hover, a:focus { color: #069; font-weight: bold; }
+a:hover, a:focus { color: #3b5e4e; font-weight: bold; }
 
 a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
 

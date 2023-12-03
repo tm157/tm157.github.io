@@ -3,7 +3,7 @@
 CUR_BRANCH=`git rev-parse --abbrev-ref HEAD`
 MSG=`git log --oneline -1`
 
-if [ $CUR_BRANCH='source_dec2' ]; then
+if [ $CUR_BRANCH='source' ]; then
     # git push origin source
 
     # jekyll build
