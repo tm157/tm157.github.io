@@ -3,7 +3,7 @@ I am interested in generative modeling, dynamical systems/sequence modeling and 
 
 Most of my work involves learning about and then applying knowledge from different domains like differential equations (ODEs/PDEs/SDEs), statistics and machine learning towards a more fundamental understanding of how ML models learn and also use these insights to design better ML algorithms.
 
-These days I am thinking about modeling and sampling discrete data like graphs and language, and modeling temporal data---with a special focus on PDEs
+These days I am thinking about modeling and sampling discrete data like graphs and language, and modeling temporal data---with a special focus on PDEs.
 
 
 In the Summer of 2022, I was an intern at the [Blueshift Team](https://research.google/teams/blueshift/) at Google, where I had the pleasure to work with Guy Gur-Ari, [Jascha Sohl-Dickstein](https://sohldickstein.com/), [Yasaman Bahri](https://sites.google.com/view/yasamanbahri/home) and [Behnam Neyshabur](https://www.neyshabur.net/) at Google. 
