@@ -16,5 +16,5 @@ if [ $CUR_BRANCH='source_dec2' ]; then
     git commit -m "$MSG"
     git push origin master
 
-    git checkout source
+    git checkout source_dec2
 fi
