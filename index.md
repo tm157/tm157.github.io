@@ -18,6 +18,7 @@ Here is my [Github](https://github.com/tm157/), and [Google Scholar](https://sch
 
 [Deep Equilibrium Based Neural Operators for Steady-State PDEs](https://arxiv.org/abs/2312.00234)\
 **Tanya Marwah<sup>\*</sup>**, Ashwini Pokle<sup>\*</sup>, J. Zico Kolter, Zachary C. Lipton, Jianfeng Lu, Andrej Risteski
+Neural Information Processing Systems (NeurIPS), 2023
 
 [Neural Network approximations of PDEs Beyond Linearity: A Representational Perspective](https://arxiv.org/abs/2210.12101)\
 **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Andrej Risteski \
@@ -38,5 +39,4 @@ IEEE International Conference on Computer Vision (ICCV), 2017
 [Sync-DRAW: Automatic video generation using deep recurrent attentive architectures](https://arxiv.org/pdf/1611.10314.pdf) \
 **Tanya Marwah<sup>\*</sup>**, Gaurav Mittal<sup>\*</sup>, Vineeth N Balasubramanian \
 25th ACM international conference on Multimedia (ACM-MM), 2017 (Oral)
-
 
