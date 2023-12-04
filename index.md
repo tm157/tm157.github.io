@@ -16,10 +16,8 @@ Here is my [Github](https://github.com/tm157/), and [Google Scholar](https://sch
 
 ### Publications
 
-**Deep Equilibrium Based Neural Operators for Steady-State PDEs**\
-**Tanya Marwah<sup>\*</sup>**, Ashwini Pokle<sup>\*</sup>, J. Zico Kolter, Zachary C. Lipton, Jianfeng Lu, Andrej Risteski \
-Neural Information Processing Systems (NeurIPS), 2023\
-(Will post on arxiv soon!!)
+[Deep Equilibrium Based Neural Operators for Steady-State PDEs](https://arxiv.org/abs/2312.00234)\
+**Tanya Marwah<sup>\*</sup>**, Ashwini Pokle<sup>\*</sup>, J. Zico Kolter, Zachary C. Lipton, Jianfeng Lu, Andrej Risteski
 
 [Neural Network approximations of PDEs Beyond Linearity: A Representational Perspective](https://arxiv.org/abs/2210.12101)\
 **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Andrej Risteski \
