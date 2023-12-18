@@ -6,7 +6,7 @@ Most of my work involves learning about and then applying knowledge from differe
 These days I am thinking mostly about modeling and sampling discrete data like graphs and language, and modeling temporal data---with a special focus on PDEs. Feel free to reach out to me if you are interested in any of these topics!! 
 
 
-In the Summer of 2022, I was an intern at the [Blueshift Team](https://research.google/teams/blueshift/) at Google, where I had the pleasure to work with Guy Gur-Ari, [Jascha Sohl-Dickstein](https://sohldickstein.com/), [Yasaman Bahri](https://sites.google.com/view/yasamanbahri/home) and [Behnam Neyshabur](https://www.neyshabur.net/) at Google. 
+In the Summer of 2022, I was an intern at the [Blueshift Team](https://research.google/teams/blueshift/) at Google, where I had the pleasure to work with Guy Gur-Ari, [Jascha Sohl-Dickstein](https://sohldickstein.com/), [Yasaman Bahri](https://sites.google.com/view/yasamanbahri/home) and [Behnam Neyshabur](https://www.neyshabur.net/). 
 Previously, I completed my Masters in Robotics at CMU, during which I was advised by [Prof. Kris Kitani](https://kriskitani.github.io/) and was a recipient of the [Siebel Scholarship](https://www.siebelscholars.com/), 2019. I did my Bachelors with Honors in Electrical Engineering from Indian Institute of Technology, Hyderabad where I worked with [Prof. Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/).
 
 ---
