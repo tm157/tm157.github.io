@@ -1,12 +1,15 @@
-Hi! I am a PhD student at the Machine Learning Department, CMU, where I am co-advised by [Prof. Andrej Risteski](https://www.andrew.cmu.edu/user/aristesk/) and [Prof. Zachary Lipton](https://www.zacharylipton.com/). 
-I am interested in generative modeling, dynamical systems/sequence modeling and the use of ML in scientific applications (AI4Science). 
+Hello! I am a PhD student at the Machine Learning Department, CMU, where I am co-advised by [Prof. Andrej Risteski](https://www.andrew.cmu.edu/user/aristesk/) and [Prof. Zachary Lipton](https://www.zacharylipton.com/). 
+I am interested in generative modeling, dynamical systems/sequence modeling and the use of ML in scientific applications (AI4Science) and scientific discovery in general. 
 
 Most of my work involves learning about and then applying knowledge from different domains like differential equations (ODEs/PDEs/SDEs), statistics and machine learning towards a more fundamental understanding of how ML models learn and also use these insights to design better ML algorithms.
 
-These days I am thinking mostly about modeling and sampling discrete data like graphs and language, and modeling temporal data---with a special focus on PDEs. Feel free to reach out to me if you are interested in any of these topics!! 
 
 
-In the Summer of 2022, I was an intern at the [Blueshift Team](https://research.google/teams/blueshift/) at Google, where I had the pleasure to work with Guy Gur-Ari, [Jascha Sohl-Dickstein](https://sohldickstein.com/), [Yasaman Bahri](https://sites.google.com/view/yasamanbahri/home) and [Behnam Neyshabur](https://www.neyshabur.net/). 
+In the Summer of 2022, I was an intern at the [Blueshift Team](https://research.google/teams/blueshift/) at Google, where I had the pleasure to work with Guy Gur-Ari, [Jascha Sohl-Dickstein](https://sohldickstein.com/), [Yasaman Bahri](https://sites.google.com/view/yasamanbahri/home) and [Behnam Neyshabur](https://www.neyshabur.net/) and worked on understanding the *out-of-distribution generalization of large language models* using synthetic data. 
+
+These days I am thinking mostly about *modeling and sampling discrete data like graphs and language*, and modeling temporal data---with a special focus on PDEs. Feel free to reach out to me if you are interested in any of these topics!! 
+
+
 Previously, I completed my Masters in Robotics at CMU, during which I was advised by [Prof. Kris Kitani](https://kriskitani.github.io/) and was a recipient of the [Siebel Scholarship](https://www.siebelscholars.com/), 2019. I did my Bachelors with Honors in Electrical Engineering from Indian Institute of Technology, Hyderabad where I worked with [Prof. Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/).
 
 ---
