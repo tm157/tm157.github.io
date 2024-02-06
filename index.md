@@ -1,5 +1,5 @@
 Hello! I am a PhD student at the Machine Learning Department, CMU, where I am co-advised by [Prof. Andrej Risteski](https://www.andrew.cmu.edu/user/aristesk/) and [Prof. Zachary Lipton](https://www.zacharylipton.com/). 
-I am interested in generative modeling, dynamical systems/sequence modeling and the use of AI for scientific applications (AI4Science), scientific discovery and mathematics in general. 
+I am interested in generative modeling, dynamical systems/sequence modeling and the use of AI for scientific discovery (AI4Science) and mathematics in general. 
 
 Most of my work involves learning about and then applying knowledge from different domains like differential equations (ODEs/PDEs/SDEs), statistics and machine learning towards a more fundamental understanding of how ML models learn and also use these insights to design better ML algorithms.
 
