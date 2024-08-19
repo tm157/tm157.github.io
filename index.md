@@ -5,7 +5,7 @@ Feel free to reach out to me if you are interested in any of these topics!!
 
 In Summer of 2024, I was an intern at [Microsoft New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/), where I worked with [David Alvarez-Melis](https://dmelis.github.io/), [Nicolo Fusi](http://nicolofusi.com/) and [Lester Mackey](https://stanford.edu/~lmackey/). Here, I worked on improving the zero-shot reasoning capabilities of large language models (LLMs) by utilizing context dependent embeddings!! 
 
-In the Summer of 2022, I was an intern at the [Blueshift Team](https://research.google/teams/blueshift/) at Google, where I had the pleasure to work with Guy Gur-Ari, [Jascha Sohl-Dickstein](https://sohldickstein.com/), [Yasaman Bahri](https://sites.google.com/view/yasamanbahri/home) and [Behnam Neyshabur](https://www.neyshabur.net/) and worked on understanding the *out-of-distribution generalization of large language models* using synthetic data. 
+In Summer of 2022, I was an intern at the [Blueshift Team](https://research.google/teams/blueshift/) at Google, where I had the pleasure to work with Guy Gur-Ari, [Jascha Sohl-Dickstein](https://sohldickstein.com/), [Yasaman Bahri](https://sites.google.com/view/yasamanbahri/home) and [Behnam Neyshabur](https://www.neyshabur.net/) and worked on understanding the *out-of-distribution generalization of large language models* using synthetic data. 
 
 Previously, I completed my Masters in Robotics at CMU, during which I was advised by [Prof. Kris Kitani](https://kriskitani.github.io/) and was a recipient of the [Siebel Scholarship](https://www.siebelscholars.com/), 2019. I did my Bachelors with Honors in Electrical Engineering from Indian Institute of Technology, Hyderabad where I worked with [Prof. Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/).
 
@@ -15,7 +15,7 @@ Previously, I completed my Masters in Robotics at CMU, during which I was advise
 
 ## Publications
 
-**GMamba: Towards characterizing the value of edge embeddings in GNNs** \
+**GMamba: Generalized State Space Models For Language, Images and Graphs** \
 Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
 *In Submission*
 
