@@ -1,7 +1,7 @@
 title: Tanya Marwah # your name (or website title) here
 logo: "/images/Tanya.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  PhD Student at Machine Learning Department, Carnegie Mellon University.
+  tmarwah [at] andrew [dot] cmu [dot] edu
 
 theme: jekyll-theme-minimal
 plugins:
@@ -9,3 +9,7 @@ plugins:
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 github:
   is_project_page: false
+  show_github_url: true
+  tm_github_url: https://github.com/tm157/
+  tm_google_scholar: https://scholar.google.com/citations?hl=en&user=_Y_XvN4AAAAJ
+  show_google_scholar: true

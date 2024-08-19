@@ -1,24 +1,19 @@
-Hi! I am a PhD student at the Machine Learning Department, CMU, where I am co-advised by [Prof. Andrej Risteski](https://www.andrew.cmu.edu/user/aristesk/) and [Prof. Zachary Lipton](https://www.zacharylipton.com/). 
-I am interested in generative modeling, dynamical systems/sequence modeling and the use of AI for scientific discovery (AI4Science) and mathematics in general. 
+Hi! I am a PhD student at the Machine Learning Department, CMU, where I am co-advised by [Prof. Andrej Risteski](https://www.andrew.cmu.edu/user/aristesk/) and [Prof. Zachary Lipton](https://www.zacharylipton.com/). I am interested in the theory and empirics of Machine Learning.
 
-Most of my work involves learning about and then applying knowledge from different domains like differential equations (ODEs/PDEs/SDEs), statistics and machine learning towards a more fundamental understanding of how ML models learn and also use these insights to design better ML algorithms.
-My current focus is on using large models for Scientific Discovery, with a special emphasis on reasoning for Math and Physics. I am also working on reliably and efficiently modeling continuous data for long time---with a special focus on PDEs.
+ My work focuses on using large models for Scientific Discovery, with a special emphasis on reasoning for Math and Physics. I am also working on reliably and efficiently modeling continuous data for long time---with a special focus on PDEs.
 Feel free to reach out to me if you are interested in any of these topics!! 
 
-
-In Summer of 2024, I was an intern at [Microsoft New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/), where I worked with [David Alvarez-Melis](https://dmelis.github.io/), [Nicolo Fusi](http://nicolofusi.com/) and [Lester Mackey](https://stanford.edu/~lmackey/). Here I worked on improving the zero-shot reasoning capabilities of large language models (LLMs) by utilizing context dependent embeddings!! 
+In Summer of 2024, I was an intern at [Microsoft New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/), where I worked with [David Alvarez-Melis](https://dmelis.github.io/), [Nicolo Fusi](http://nicolofusi.com/) and [Lester Mackey](https://stanford.edu/~lmackey/). Here, I worked on improving the zero-shot reasoning capabilities of large language models (LLMs) by utilizing context dependent embeddings!! 
 
 In the Summer of 2022, I was an intern at the [Blueshift Team](https://research.google/teams/blueshift/) at Google, where I had the pleasure to work with Guy Gur-Ari, [Jascha Sohl-Dickstein](https://sohldickstein.com/), [Yasaman Bahri](https://sites.google.com/view/yasamanbahri/home) and [Behnam Neyshabur](https://www.neyshabur.net/) and worked on understanding the *out-of-distribution generalization of large language models* using synthetic data. 
 
 Previously, I completed my Masters in Robotics at CMU, during which I was advised by [Prof. Kris Kitani](https://kriskitani.github.io/) and was a recipient of the [Siebel Scholarship](https://www.siebelscholars.com/), 2019. I did my Bachelors with Honors in Electrical Engineering from Indian Institute of Technology, Hyderabad where I worked with [Prof. Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/).
 
-**I am in the 2024-2025 Job market!**
----
-Here is my [Github](https://github.com/tm157/), and [Google Scholar](https://scholar.google.com/citations?hl=en&user=_Y_XvN4AAAAJ&view_op=list_works&sortby=pubdate). The easiest way to reach me is through email, my id is tmarwah [at] andrew [dot] cmu [dot] edu.
+**---I am on the 2024-2025 Job market!---**
 
 ---
 
-### Publications
+## Publications
 
 **GMamba: Towards characterizing the value of edge embeddings in GNNs** \
 Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
@@ -26,11 +21,11 @@ Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
 
 
 **On the Benefits of Memory for Modeling Time-Dependent PDEs** \
-Ricardo Buitrago Ruiz, **Tanya Marwah**, Albert Gu, Andrej Risteski
-*In Submission*
+Ricardo Buitrago Ruiz, **Tanya Marwah**, Albert Gu, Andrej Risteski \
+*In Submission* 
 
-**Towards characterizing the value of edge embeddings in GNNs** \ 
-Dhruv Rohatgi, **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Ankur Moitra, Andrej Risteski
+**Towards characterizing the value of edge embeddings in GNNs** \
+Dhruv Rohatgi, **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Ankur Moitra, Andrej Risteski \
 *In Submission*
 
 [UPS: Towards Foundation Models for PDE Solving via Cross-Modal Adaptation](https://arxiv.org/abs/2403.07187)\
