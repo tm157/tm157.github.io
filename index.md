@@ -1,9 +1,9 @@
 Hi! I am a PhD student at the Machine Learning Department, CMU, where I am co-advised by [Prof. Andrej Risteski](https://www.andrew.cmu.edu/user/aristesk/) and [Prof. Zachary Lipton](https://www.zacharylipton.com/). I am interested in the theory and empirics of Machine Learning.
 
- My work focuses on using large models for Scientific Discovery, with a special emphasis on reasoning for Math and Physics. I am also working on reliably and efficiently modeling continuous data for long time---with a special focus on PDEs.
+My work focuses on using large models for Scientific Discovery, with a special emphasis on reasoning for Math and Physics. I am also working on reliably and efficiently modeling continuous data under partial observability---with a special focus on PDEs.
 Feel free to reach out to me if you are interested in any of these topics!! 
 
-In Summer of 2024, I was an intern at [Microsoft New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/), where I worked with [David Alvarez-Melis](https://dmelis.github.io/), [Nicolo Fusi](http://nicolofusi.com/) and [Lester Mackey](https://stanford.edu/~lmackey/). Here, I worked on improving the zero-shot reasoning capabilities of large language models (LLMs) by utilizing context dependent embeddings!! 
+In Summer of 2024, I was an intern at [Microsoft New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/), where I worked with [David Alvarez-Melis](https://dmelis.github.io/), [Nicolo Fusi](http://nicolofusi.com/) and [Lester Mackey](https://stanford.edu/~lmackey/) on improving the zero-shot reasoning capabilities of large language models (LLMs) by utilizing context dependent embeddings!! 
 
 In Summer of 2022, I was an intern at the [Blueshift Team](https://research.google/teams/blueshift/) at Google, where I had the pleasure to work with Guy Gur-Ari, [Jascha Sohl-Dickstein](https://sohldickstein.com/), [Yasaman Bahri](https://sites.google.com/view/yasamanbahri/home) and [Behnam Neyshabur](https://www.neyshabur.net/) and worked on understanding the *out-of-distribution generalization of large language models* using synthetic data. 
 
