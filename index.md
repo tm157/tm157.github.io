@@ -1,7 +1,10 @@
 Hi! I am a PhD student at the Machine Learning Department, CMU, where I am co-advised by [Prof. Andrej Risteski](https://www.andrew.cmu.edu/user/aristesk/) and [Prof. Zachary Lipton](https://www.zacharylipton.com/). I am interested in the theory and empirics of Machine Learning.
 
- My work focuses on using large models for Scientific Discovery, with a special emphasis on reasoning for Math and Physics. I am also working on reliably and efficiently modeling continuous data for long time---with a special focus on PDEs.
-Feel free to reach out to me if you are interested in any of these topics!! 
+<!-- My work focuses on using large models for Scientific Discovery, with a special emphasis on reasoning for Math and Physics. I am also working on reliably and efficiently modeling continuous data for long time---with a special focus on PDEs.
+Feel free to reach out to me if you are interested in any of these topics!!  -->
+
+My work focuses on using large models for Scientific Discovery. Towards this, I am especially interested in reliable and efficient modeling of multimodal data---with a special emphasis on continuous data (videos, PDEs, physical dynamics) and structured discrete data (graphs, and language). I am also working on improving the reasoning capabilities of large models for science, with a special emphasis on Math and Physics. 
+<!-- Feel free to reach out to me if you are interested in any of these topics!!  -->
 
 In Summer of 2024, I was an intern at [Microsoft New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/), where I worked with [David Alvarez-Melis](https://dmelis.github.io/), [Nicolo Fusi](http://nicolofusi.com/) and [Lester Mackey](https://stanford.edu/~lmackey/). Here, I worked on improving the zero-shot reasoning capabilities of large language models (LLMs) by utilizing context dependent embeddings!! 
 
