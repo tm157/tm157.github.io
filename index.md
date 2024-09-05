@@ -32,7 +32,7 @@ Dhruv Rohatgi, **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Ankur Moitra, A
 *In Submission*
 
 [UPS: Towards Foundation Models for PDE Solving via Cross-Modal Adaptation](https://arxiv.org/abs/2403.07187)\
-Junhong Shen, Tanya Marwah, Ameet Talwalkar \
+Junhong Shen, **Tanya Marwah**, Ameet Talwalkar \
 ICML AI4Science Workshop, 2024 (Spotlight).
 
 
