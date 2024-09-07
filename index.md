@@ -22,14 +22,14 @@ Previously, I completed my Masters in Robotics at CMU, during which I was advise
 Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
 *In Submission*
 
-
-**On the Benefits of Memory for Modeling Time-Dependent PDEs** \
+[On the Benefits of Memory for Modeling Time-Dependent PDEs](https://arxiv.org/abs/2409.02313) \
 Ricardo Buitrago Ruiz, **Tanya Marwah**, Albert Gu, Andrej Risteski \
 *In Submission* 
 
-**Towards characterizing the value of edge embeddings in GNNs** \
+[Towards characterizing the value of edge embeddings in GNNs](https://drive.google.com/file/d/1u9_WslrqleDb4kQUwir3XS3LUgWnf8q4/view?usp=sharing) \
 Dhruv Rohatgi, **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Ankur Moitra, Andrej Risteski \
 *In Submission*
+
 
 [UPS: Towards Foundation Models for PDE Solving via Cross-Modal Adaptation](https://arxiv.org/abs/2403.07187)\
 Junhong Shen, **Tanya Marwah**, Ameet Talwalkar \
