@@ -18,7 +18,7 @@ Previously, I completed my Masters in Robotics at CMU, during which I was advise
 
 ## Publications
 
-[GMamba: Generalized State Space Models For Language, Images and Graphs]((https://drive.google.com/file/d/1W-E3K5QA2XyCRZm9iMuFeFs0SiP86xz7/view?usp=sharing)) \
+[GMamba: Generalized State Space Models For Language, Images and Graphs](https://drive.google.com/file/d/1W-E3K5QA2XyCRZm9iMuFeFs0SiP86xz7/view?usp=sharing) \
 Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
 *In Submission*
 
