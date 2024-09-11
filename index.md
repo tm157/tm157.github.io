@@ -15,16 +15,16 @@ Previously, I completed my Masters in Robotics at CMU, during which I was advise
 
 ## Publications
 
-**GMamba: Generalized State Space Models For Language, Images and Graphs** \
+[GMamba: Generalized State Space Models For Language, Images and Graphs]((https://drive.google.com/file/d/1W-E3K5QA2XyCRZm9iMuFeFs0SiP86xz7/view?usp=sharing)) \
 Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
 *In Submission*
 
 
-**On the Benefits of Memory for Modeling Time-Dependent PDEs** \
+[On the Benefits of Memory for Modeling Time-Dependent PDEs](https://arxiv.org/abs/2409.02313) \
 Ricardo Buitrago Ruiz, **Tanya Marwah**, Albert Gu, Andrej Risteski \
 *In Submission* 
 
-**Towards characterizing the value of edge embeddings in GNNs** \
+[Towards characterizing the value of edge embeddings in GNNs](https://drive.google.com/file/d/1u9_WslrqleDb4kQUwir3XS3LUgWnf8q4/view?usp=sharing) \
 Dhruv Rohatgi, **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Ankur Moitra, Andrej Risteski \
 *In Submission*
 
