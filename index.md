@@ -16,7 +16,7 @@ Previously, I completed my Masters in Robotics at CMU, during which I was advise
 
 ---
 
-## Publications
+## Selected Publications
 
 [GMamba: Generalized State Space Models For Language, Images and Graphs](https://drive.google.com/file/d/1W-E3K5QA2XyCRZm9iMuFeFs0SiP86xz7/view?usp=sharing) \
 Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
@@ -34,7 +34,6 @@ Dhruv Rohatgi, **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Ankur Moitra, A
 [UPS: Towards Foundation Models for PDE Solving via Cross-Modal Adaptation](https://arxiv.org/abs/2403.07187)\
 Junhong Shen, **Tanya Marwah**, Ameet Talwalkar \
 ICML AI4Science Workshop, 2024 (Spotlight).
-
 
 
 [Deep Equilibrium Based Neural Operators for Steady-State PDEs](https://arxiv.org/abs/2312.00234)\
@@ -57,7 +56,9 @@ Neural Information Processing Systems (NeurIPS), 2021 (Spotlight)
 **Tanya Marwah<sup>\*</sup>**, Gaurav Mittal<sup>\*</sup>, Vineeth N Balasubramanian \
 IEEE International Conference on Computer Vision (ICCV), 2017
 
-[Sync-DRAW: Automatic video generation using deep recurrent attentive architectures](https://arxiv.org/pdf/1611.10314.pdf) \
-**Tanya Marwah<sup>\*</sup>**, Gaurav Mittal<sup>\*</sup>, Vineeth N Balasubramanian \
-25th ACM international conference on Multimedia (ACM-MM), 2017 (Oral)
 
+---
+### Working Paper
+
+[Improving Zero-Shot Reasoning Using Dynamic Non-Verbal Tokens](https://drive.google.com/file/d/1y4hQ03PmEr2AW5VTsts7JJQoSPZywLaW/view?usp=sharing) \
+**Tanya Marwah**, Zhili Feng, Lester Mackey, Nicolo Fusi, David Alvarez-Melis 
