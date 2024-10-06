@@ -58,7 +58,7 @@ IEEE International Conference on Computer Vision (ICCV), 2017
 
 
 ---
-### Working Paper
+## Working Paper
 
 [Improving Zero-Shot Reasoning Using Dynamic Non-Verbal Tokens](https://drive.google.com/file/d/1y4hQ03PmEr2AW5VTsts7JJQoSPZywLaW/view?usp=sharing) \
 **Tanya Marwah**, Zhili Feng, Lester Mackey, Nicolo Fusi, David Alvarez-Melis 
