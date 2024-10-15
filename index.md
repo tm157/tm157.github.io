@@ -24,7 +24,7 @@ Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
 Ricardo Buitrago Ruiz, **Tanya Marwah**, Albert Gu, Andrej Risteski \
 *In Submission* 
 
-[Towards characterizing the value of edge embeddings in GNNs](https://drive.google.com/file/d/1u9_WslrqleDb4kQUwir3XS3LUgWnf8q4/view?usp=sharing) \
+[Towards characterizing the value of edge embeddings in GNNs](https://arxiv.org/abs/2410.09867) \
 Dhruv Rohatgi, **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Ankur Moitra, Andrej Risteski \
 *In Submission*
 
