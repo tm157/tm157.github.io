@@ -30,7 +30,8 @@ Dhruv Rohatgi, **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Ankur Moitra, A
 
 [UPS: Towards Foundation Models for PDE Solving via Cross-Modal Adaptation](https://arxiv.org/abs/2403.07187)\
 Junhong Shen, **Tanya Marwah**, Ameet Talwalkar \
-ICML AI4Science Workshop, 2024 (Spotlight).
+ICML AI4Science Workshop, 2024 (Spotlight) \
+Transactions on Machine Learning Research (TMLR), 2024
 
 [Deep Equilibrium Based Neural Operators for Steady-State PDEs](https://arxiv.org/abs/2312.00234)\
 **Tanya Marwah<sup>\*</sup>**, Ashwini Pokle<sup>\*</sup>, J. Zico Kolter, Zachary C. Lipton, Jianfeng Lu, Andrej Risteski \
