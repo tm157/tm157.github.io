@@ -26,7 +26,7 @@ Ricardo Buitrago Ruiz, **Tanya Marwah**, Albert Gu, Andrej Risteski \
 
 [Towards characterizing the value of edge embeddings in GNNs](https://arxiv.org/abs/2410.09867) \
 Dhruv Rohatgi, **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Ankur Moitra, Andrej Risteski \
-*In Submission*
+NeurIPS M3L Workshop, 2024 (Oral)
 
 [UPS: Towards Foundation Models for PDE Solving via Cross-Modal Adaptation](https://arxiv.org/abs/2403.07187)\
 Junhong Shen, **Tanya Marwah**, Ameet Talwalkar \
