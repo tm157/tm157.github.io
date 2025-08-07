@@ -1,32 +1,24 @@
-Hi! I am a PhD student at the Machine Learning Department, CMU, where I am co-advised by [Prof. Andrej Risteski](https://www.andrew.cmu.edu/user/aristesk/) and [Prof. Zachary Lipton](https://www.zacharylipton.com/). I am interested in the theory and empirics of Machine Learning.
+Hi! I am a Research Fellow at the [Simons Foundation](https://www.simonsfoundation.org/) working with [Polymathic AI](https://polymathic-ai.org/). I recently graduated with a PhD from the Machine Learning Department at Carnegie Mellon University co-advised by [Prof. Andrej Risteski](https://www.andrejristeski.org/) and [Prof. Zachary Lipton](https://www.zacharylipton.com/). Previously, I was masters student in the Robotics Institute at CMU and was a Siebel Scholar.
 
-<!-- My work focuses on using large models for Scientific Discovery, with a special emphasis on reasoning for Math and Physics. I am also working on reliably and efficiently modeling continuous data for long time---with a special focus on PDEs.
-Feel free to reach out to me if you are interested in any of these topics!!  -->
+I work on the empirical and theoretical foundations of Machine Learning and its applications to scientific domains. My current interests are around generative modeling of scientific phenomena, inverse problems and building scientific agents. My ultimate goal is to develop ML algorithms and methods that help us accelerate the scientific process and enable scientific discovery. 
 
-My work focuses on using large models for Scientific Discovery. Towards this, I am especially interested in reliable and efficient modeling of multimodal data---with a special emphasis on continuous data (videos, PDEs, physical dynamics) and structured discrete data (graphs, and language). I am also working on improving the reasoning capabilities of large models for science, with a special emphasis on Math and Physics. 
-<!-- Feel free to reach out to me if you are interested in any of these topics!!  -->
-
-In Summer of 2024, I was an intern at [Microsoft New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/), where I worked with [David Alvarez-Melis](https://dmelis.github.io/), [Nicolo Fusi](http://nicolofusi.com/) and [Lester Mackey](https://stanford.edu/~lmackey/). Here, I worked on improving the zero-shot reasoning capabilities of large language models (LLMs) by utilizing context dependent embeddings!! 
-
-In Summer of 2022, I was an intern at the [Blueshift Team](https://research.google/teams/blueshift/) at Google, where I had the pleasure to work with Guy Gur-Ari, [Jascha Sohl-Dickstein](https://sohldickstein.com/), [Yasaman Bahri](https://sites.google.com/view/yasamanbahri/home) and [Behnam Neyshabur](https://www.neyshabur.net/) and worked on understanding the *out-of-distribution generalization of large language models* using synthetic data. 
-
-Previously, I completed my Masters in Robotics at CMU, during which I was advised by [Prof. Kris Kitani](https://kriskitani.github.io/) and was a recipient of the [Siebel Scholarship](https://www.siebelscholars.com/), 2019. I did my Bachelors with Honors in Electrical Engineering from Indian Institute of Technology, Hyderabad where I worked with [Prof. Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/).
-
-**---I am on the 2024-2025 Job market!---**
+You can find my CV [here](https://drive.google.com/file/d/1MQy3slOq3f0MQNfDQQz8pzIEm2stY6zx/view?usp=sharing).
 
 ---
 ## Selected Publications
-[Chimera: State Space Models Beyond Sequences](https://drive.google.com/file/d/1W-E3K5QA2XyCRZm9iMuFeFs0SiP86xz7/view?usp=sharing) \
-Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
-*In Submission*
-
-[On the Benefits of Memory for Modeling Time-Dependent PDEs](https://arxiv.org/abs/2409.02313) \
-Ricardo Buitrago Ruiz, **Tanya Marwah**, Albert Gu, Andrej Risteski \
-*In Submission* 
+[CodePDE: An Inference Framework for LLM-driven PDE Solver Generation](https://arxiv.org/abs/2505.08783) \
+Shanda Li, **Tanya Marwah**, Junhong Shen, Weiwei Sun, Andrej Risteski, Yiming Yang, Ameet Talwalkar \
+**In Submission**
 
 [Towards characterizing the value of edge embeddings in GNNs](https://arxiv.org/abs/2410.09867) \
 Dhruv Rohatgi, **Tanya Marwah**, Zachary C. Lipton, Jianfeng Lu, Ankur Moitra, Andrej Risteski \
-*In Submission*
+NeurIPS Mathematics of Modern Machine Learning Workshop, 2024 (Oral) \
+International Conference on Machine Learning, 2025 (ICML)
+
+[On the Benefits of Memory for Modeling Time-Dependent PDEs](https://arxiv.org/abs/2409.02313) \
+Ricardo Buitrago Ruiz, **Tanya Marwah**, Albert Gu, Andrej Risteski \
+International Conference on Learning Representations (ICLR), 2025 (Oral)
+
 
 [UPS: Towards Foundation Models for PDE Solving via Cross-Modal Adaptation](https://arxiv.org/abs/2403.07187)\
 Junhong Shen, **Tanya Marwah**, Ameet Talwalkar \
@@ -56,5 +48,9 @@ IEEE International Conference on Computer Vision (ICCV), 2017
 
 ---
 ## Working Paper
+[Chimera: State Space Models Beyond Sequences](https://drive.google.com/file/d/1W-E3K5QA2XyCRZm9iMuFeFs0SiP86xz7/view?usp=sharing) \
+Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
+*In Submission*
+
 [Improving Zero-Shot Reasoning Using Dynamic Non-Verbal Tokens](https://drive.google.com/file/d/1y4hQ03PmEr2AW5VTsts7JJQoSPZywLaW/view?usp=sharing) \
 **Tanya Marwah**, Zhili Feng, Lester Mackey, Nicolo Fusi, David Alvarez-Melis 
