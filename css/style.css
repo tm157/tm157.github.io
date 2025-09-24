@@ -226,3 +226,144 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
   .downloads { width: 99%; }
   .downloads li, .downloads li + li + li { width: 33%; } }
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
+
+
+/**
+ms changes
+**/
+
+/*
+  Some stuff from CSS Toast.
+*/
+.grid {
+  margin-left: -3%;
+  max-width: 105%; }
+
+.unit {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
+  margin-left: 3%;
+  margin-right: -.25em;
+  /* Clearfix */
+  overflow: hidden;
+  *overflow: visible; }
+
+.span-grid {
+  width: 100%; }
+
+.one-of-two {
+  width: 47%; }
+
+.one-of-three {
+  width: 30.36%; }
+
+.two-of-three {
+  width: 63.666666666%; }
+
+.one-of-four {
+  width: 22.05%; }
+
+.three-of-four {
+  width: 72%; }
+
+.one-of-five {
+  width: 17.07%; }
+
+.two-of-five {
+  width: 37%; }
+
+.three-of-five {
+  width: 57%; }
+
+.four-of-five {
+  width: 77%; }
+
+/**
+    PROJECTS LIST
+**/
+ul.projects {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul.projects li {
+  display: block;
+  /* Clearfix */
+  overflow: hidden;
+  *overflow: visible; }
+
+ul.projects li img {
+  float: left; }
+
+ul.projects li img {
+  margin-bottom: 10px; }
+
+ul.projects li div {
+  margin-left: 0; }
+
+ul.projects.notes li div {
+  margin-left: 0; }
+
+ul.projects li.nothumb div {
+  margin-left: 0; }
+
+ul.projects h6 {
+  display: inline;
+  font-size: .96em;
+  font-style: italic;
+  color: #3d5a80;
+}
+
+ul.projects h6.extra {
+  display: inline;
+  font-size: .96em;
+  font-style: normal;
+  color: #e63946;
+}
+
+/* If iPhone size, display images and text on different lines. */
+@media screen and (max-width: 800px) {
+  ul.projects li img {
+    float: none;
+    margin-top: 0; }
+
+  ul.projects li div {
+    margin-left: 0; } }
+
+aside {
+  margin-left: 0px;
+  position: relative;
+  width: 180px; }
+
+@media screen and (max-width: 840px) {
+  aside {
+    margin-left: 0;
+    position: relative;
+    width: auto; } }
+
+.article {
+  max-width: 880px; }
+
+.content p, pre, code {
+  max-width: 90%;
+  font-family: 'Crimson Text', serif;
+}
+
+.footer, .small, ul.projects p {
+  font-size: .875em;
+  line-height: 1.7143em;
+  margin-bottom: 1.7143em; }
+
+ul.projects ul {
+  font-size: .875em;
+  line-height: 1.7143em;
+  margin-bottom: 1.7143em;
+  margin-top: 0em; }
+
+ul.projects ul li {
+  display: list-item;
+  list-style-type: disc;
+  overflow: visible;
+  margin-left: 1rem; }

@@ -54,3 +54,55 @@ Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
 
 [Improving Zero-Shot Reasoning Using Dynamic Non-Verbal Tokens](https://drive.google.com/file/d/1y4hQ03PmEr2AW5VTsts7JJQoSPZywLaW/view?usp=sharing) \
 **Tanya Marwah**, Zhili Feng, Lester Mackey, Nicolo Fusi, David Alvarez-Melis 
+
+
+## Selected Publications
+
+<div class="grid">
+{% for category in site.ordered_categories %}
+    <div class="unit span-grid">
+        <ul class="projects">
+        {% for post in site.categories[category] %}
+            {% if post.featured %}
+                {% capture url %}
+                    {% if post.actual_url != null and post.actual_url != "" %}
+                        {{ post.actual_url }}
+                    {% else %}
+                        {{ post.url }}
+                    {% endif %}
+                {% endcapture %}
+                
+                <li>
+                {% if post.thumbnail %}
+                    <img src="{{ post.thumbnail }}" width="180px">
+                {% endif %}
+
+                <div>
+                <h4>
+                {% if post.metadata_only %}
+                    <span markdown="1">{{ post.title }} - {{ post.links }}</span>
+                {% else %}
+                    <span markdown="1"><a href="{{ url }}" target="_blank">{{ post.title }}</a></span>
+                {% endif %}
+                </h4>
+                <h6>
+                {% if post.author %}
+                    {{post.author}}
+                {% endif %}
+                </h6>
+                {% if post.extra %}
+                  &nbsp; &nbsp; <h6 class="extra"> {{ post.extra }}</h6>
+                {% endif %}
+                {% if post.abstract %}
+                {% endif %}
+                {% if post.bullets %}
+                    {{ post.bullets | markdownify }}
+                {% endif %}
+                </div>
+                </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+{% endfor %}
+</div>

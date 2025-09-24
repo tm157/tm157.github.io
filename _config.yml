@@ -7,6 +7,15 @@ theme: jekyll-theme-minimal
 plugins:
 - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+ordered_categories: [academic, other]
+project_categories: [project, other]
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
 github:
   is_project_page: false
   show_github_url: true
