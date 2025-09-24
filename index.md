@@ -78,7 +78,7 @@ Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
                 {% endif %}
 
                 <div>
-                <h4>
+                <h4 class="projects-post">
                 {% if post.metadata_only %}
                     <span markdown="1">{{ post.title }} - {{ post.links }}</span>
                 {% else %}
