@@ -153,10 +153,10 @@ h2 { color: #393939; }
 h3, h4, h5, h6 { color: #494949; }
 
 /* a { color: #267CB9; text-decoration: none; } */
-a { color: #32787E; text-decoration: none; }
+a { color: #2F5D9D; text-decoration: none; }
 
 /* a:hover, a:focus { color: #069; font-weight: bold; } */
-a:hover, a:focus { color: #3b5e4e; font-weight: bold; }
+a:hover, a:focus { color: #1E3F70; font-weight: bold; }
 
 a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
 
@@ -362,11 +362,11 @@ aside {
   margin-bottom: 1.7143em; }
 
 ul.projects ul {
-  --project-pill-bg: rgba(50, 120, 126, 0.08);
-  --project-pill-border: rgba(50, 120, 126, 0.15);
-  --project-pill-text: #32787E;
-  --project-pill-hover-bg: #32787E;
-  --project-pill-hover-border: #32787E;
+  --project-pill-bg: rgba(47, 93, 157, 0.08);
+  --project-pill-border: rgba(47, 93, 157, 0.18);
+  --project-pill-text: #2F5D9D;
+  --project-pill-hover-bg: #2F5D9D;
+  --project-pill-hover-border: #2F5D9D;
   --project-pill-hover-text: #fff;
   display: flex;
   flex-wrap: wrap;
@@ -415,12 +415,12 @@ ul.projects ul li.highlight {
   background-color: rgba(255, 249, 196, 0.541);
   border: 1px solid rgb(255, 249, 196);
   /* border: 0; */
-  color: #1f5f64;
+  color: #1E3F70;
 }
 
 ul.projects ul li.highlight:hover,
 ul.projects ul li.highlight:focus-within {
   background-color: #fff9c4;
   /* border: 0; */
-  color: #1f5f64;
+  color: #1E3F70;
 }
