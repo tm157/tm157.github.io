@@ -10,7 +10,7 @@ abstract:
     Extensive empirical study of small- vs large-batch SGD revealing which regularizers recover small-batch generalization.
 bullets:
 |
-    - [ICLR 2023](https://arxiv.org/abs/2211.15853)
+    - ICLR 2023
     - {:.highlight} [NeurIPS Higher Order Optimization Workshop (Spotlight)]()
 ---
 

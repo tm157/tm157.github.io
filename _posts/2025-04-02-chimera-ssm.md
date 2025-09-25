@@ -11,7 +11,7 @@ abstract:
     models to incorporate the topological structure of data in a principled way
 bullets:
 |
-    - [TMLR](https://openreview.net/pdf?id=Sfmk5amxFu)
+    - TMLR
 ---
 
 <p class="abstract">

@@ -10,7 +10,7 @@ abstract:
     Unified PDE Solvers adapts pretrained language models to learn efficient neural operators across diverse spatiotemporal PDEs.
 bullets:
 |
-    - [TMLR 2024](https://arxiv.org/abs/2403.07187)
+    - TMLR 2024
     - {:.highlight} ICML AI4Science Workshop Spotlight
 ---
 

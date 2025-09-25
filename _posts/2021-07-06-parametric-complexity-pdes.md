@@ -10,8 +10,8 @@ abstract:
     Establishes polynomial parametric complexity bounds for neural networks approximating high-dimensional linear elliptic PDEs.
 bullets:
 |
-    - {:.highlight} [NeurIPS 2021 (Spotlight)]()
-    - [arXiv](https://arxiv.org/abs/2103.02138)
+    - [NeurIPS 2021]()
+    - {:.highlight} Spotlight
 ---
 
 <p class="abstract">

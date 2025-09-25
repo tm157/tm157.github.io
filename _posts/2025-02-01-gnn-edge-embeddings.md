@@ -10,7 +10,7 @@ abstract:
     Theoretical and empirical benefits of GNN architectures which leverage edge embeddings.
 bullets:
 |
-    - [ICML 2025](https://arxiv.org/abs/2410.09867)
+    - ICML 2025
     - {:.highlight} [NeurIPS Mathematics of modern ML workshop (Oral)]()
 ---
 

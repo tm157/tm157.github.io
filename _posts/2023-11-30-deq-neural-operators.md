@@ -10,7 +10,7 @@ abstract:
     FNO-DEQ solves steady-state PDEs by posing them as fixed points and differentiating through implicit layers with constant memory.
 bullets:
 |
-    - [NeurIPS 2023](https://arxiv.org/abs/2312.00234)
+    - NeurIPS 2023
 ---
 
 <p class="abstract">
