@@ -317,8 +317,8 @@ ul.projects li.nothumb div {
 ul.projects h6 {
   display: inline;
   font-size: .96em;
-  font-style: italic;
-  color: #3d5a80;
+  font-family: 'EB Garamond', 'Open Sans', 'Noto Sans', serif;
+  color: #7e7f87;
 }
 
 ul.projects h6.extra {
