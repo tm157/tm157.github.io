@@ -11,7 +11,7 @@ abstract:
 bullets:
 |
     - TMLR 2024
-    - {:.highlight} ICML AI4Science Workshop Spotlight
+    - {:.highlight} ICML AI4Science Workshop (Spotlight)
 ---
 
 <p class="abstract">

@@ -11,7 +11,7 @@ abstract:
 bullets:
 |
     - ICML 2025
-    - {:.highlight} [NeurIPS Mathematics of modern ML workshop (Oral)]()
+    - {:.highlight} NeurIPS Mathematics of modern ML workshop (Oral)
 ---
 
 <p class="abstract">
