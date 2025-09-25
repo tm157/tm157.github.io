@@ -106,3 +106,55 @@ Aakash Lahoti<sup>\*</sup>, **Tanya Marwah<sup>\*</sup>**, Albert Gu \
     </div>
 {% endfor %}
 </div>
+
+---
+
+
+## Working Papers
+
+<div class="grid">
+{% for category in site.project_categories %}
+    <div class="unit span-grid">
+        <ul class="projects">
+        {% for post in site.categories[category] %}
+            {% if post.featured %}
+                {% capture url %}
+                    {% if post.actual_url != null and post.actual_url != "" %}
+                        {{ post.actual_url }}
+                    {% else %}
+                        {{ post.url }}
+                    {% endif %}
+                {% endcapture %}
+
+                <li class="nothumb">
+                {% if post.thumbnail %}
+                    <img src="{{ post.thumbnail }}" width="180px">
+                {% endif %}
+
+                <div>
+                <h4 class="projects-post">
+                {% if post.metadata_only %}
+                    <span markdown="1">{{ post.title }} {{ post.links }}</span>
+                {% else %}
+                    <span markdown="1"><a href="{{ url }}" target="_blank">{{ post.title }}</a></span>
+                {% endif %}
+                </h4>
+                <h6>
+                {% if post.author %}
+                    {{post.author}}
+                {% endif %}
+                </h6>
+                {% if post.extra %}
+                  &nbsp; &nbsp; <h6 class="extra"> {{ post.extra }}</h6>
+                {% endif %}
+                {% if post.bullets %}
+                    {{ post.bullets | markdownify }}
+                {% endif %}
+                </div>
+                </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+{% endfor %}
+</div>
