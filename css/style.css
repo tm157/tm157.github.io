@@ -135,7 +135,7 @@
 
 .highlight .w { color: #bbbbbb; }
 
-.highlight { background-color: #f8f8f8; }
+/* .highlight { background-color: #f8f8f8; } */
 
 body { background-color: #fff; padding: 50px; font-family: "Open Sans"; font: 13.5px/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #727272; font-weight: 500; }
 
@@ -362,6 +362,12 @@ aside {
   margin-bottom: 1.7143em; }
 
 ul.projects ul {
+  --project-pill-bg: rgba(50, 120, 126, 0.08);
+  --project-pill-border: rgba(50, 120, 126, 0.15);
+  --project-pill-text: #32787E;
+  --project-pill-hover-bg: #32787E;
+  --project-pill-hover-border: #32787E;
+  --project-pill-hover-text: #fff;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -377,10 +383,10 @@ ul.projects ul li {
   list-style: none;
   padding: 0.25rem 0.75rem;
   margin: 0;
-  background-color: rgba(50, 120, 126, 0.08);
-  border: 1px solid rgba(50, 120, 126, 0.15);
+  background-color: var(--project-pill-bg);
+  border: 1px solid var(--project-pill-border);
   border-radius: 999px;
-  color: #32787E;
+  color: var(--project-pill-text);
 }
 
 ul.projects ul li + li {
@@ -395,12 +401,26 @@ ul.projects ul li a {
 
 ul.projects ul li a:hover,
 ul.projects ul li a:focus {
-  color: #fff;
+  color: inherit;
 }
 
 ul.projects ul li:hover,
 ul.projects ul li:focus-within {
-  background-color: #32787E;
-  border-color: #32787E;
-  color: #fff;
+  background-color: var(--project-pill-hover-bg);
+  border-color: var(--project-pill-hover-border);
+  color: var(--project-pill-hover-text);
+}
+
+ul.projects ul li.highlight {
+  background-color: rgba(255, 249, 196, 0.541);
+  border: 1px solid rgb(255, 249, 196);
+  /* border: 0; */
+  color: #1f5f64;
+}
+
+ul.projects ul li.highlight:hover,
+ul.projects ul li.highlight:focus-within {
+  background-color: #fff9c4;
+  /* border: 0; */
+  color: #1f5f64;
 }
