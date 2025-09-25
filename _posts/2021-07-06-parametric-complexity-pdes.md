@@ -1,0 +1,21 @@
+---
+title: "Parametric Complexity Bounds for Approximating PDEs with Neural Networks"
+category: academic
+featured: true
+author: Tanya Marwah, Zachary C. Lipton, Andrej Risteski
+actual_url: https://arxiv.org/abs/2103.02138
+url: https://arxiv.org/abs/2103.02138
+abstract:
+|
+    Establishes polynomial parametric complexity bounds for neural networks approximating high-dimensional linear elliptic PDEs.
+bullets:
+|
+    - {:.highlight} [NeurIPS 2021 (Spotlight)]()
+    - [arXiv](https://arxiv.org/abs/2103.02138)
+---
+
+<p class="abstract">
+Recent experiments have shown that deep networks can approximate solutions to high-dimensional PDEs, seemingly escaping the curse of dimensionality. However, questions regarding the theoretical basis for such approximations, including the required network size, remain open. In this paper, we investigate the representational power of neural networks for approximating solutions to linear elliptic PDEs with Dirichlet boundary conditions. We prove that when a PDE's coefficients are representable by small neural networks, the parameters required to approximate its solution scale polynomially with the input dimension $d$ and proportionally to the parameter counts of the coefficient networks. To this we end, we develop a proof technique that simulates gradient descent (in an appropriate Hilbert space) by growing a neural network architecture whose iterates each participate as sub-networks in their (slightly larger) successors, and converge to the solution of the PDE. We bound the size of the solution, showing a polynomial dependence on $d$ and no dependence on the volume of the domain.
+</p>
+
+[PDF](https://arxiv.org/pdf/2103.02138)
