@@ -11,7 +11,6 @@ abstract:
 bullets:
 |
     - ICLR 2023
-    - {:.highlight} NeurIPS Higher Order Optimization Workshop (Spotlight)
 ---
 
 <p class="abstract">

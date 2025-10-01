@@ -137,7 +137,7 @@
 
 /* .highlight { background-color: #f8f8f8; } */
 
-body { background-color: #fff; padding: 50px; font-family: "Open Sans"; font: 13.5px/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #727272; font-weight: 500; }
+body { background-color: #fef9f4; padding: 50px; font-family: Georgia, "Times New Roman", Times, serif; font: 13.5px/1.6 Georgia, "Times New Roman", Times, serif; color: #727272; font-weight: 500; }
 
 /* body { background-color: #fff; padding: 50px; font-family: $open-sans-font; color: #727272; } */
 h1, h2, h3, h4, h5, h6 { color: #222; margin: 0 0 20px; }
@@ -182,7 +182,7 @@ img { max-width: 100%; }
 
 kbd { background-color: #fafbfc; border: 1px solid #c6cbd1; border-bottom-color: #959da5; border-radius: 3px; box-shadow: inset 0 -1px 0 #959da5; color: #444d56; display: inline-block; font-size: 11px; line-height: 10px; padding: 3px 5px; vertical-align: middle; }
 
-header { width: 210px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; }
+header { width: 220px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; }
 
 ul.downloads { list-style: none; height: 40px; padding: 0; background: #f4f4f4; border-radius: 5px; border: 1px solid #e0e0e0; width: 270px; }
 
@@ -295,9 +295,14 @@ ul.projects {
 
 ul.projects li {
   display: block;
+  margin-bottom: 18px;
   /* Clearfix */
   overflow: hidden;
   *overflow: visible; }
+
+ul.projects li:last-child {
+  margin-bottom: 0;
+}
 
 ul.projects li img {
   float: left; }
@@ -368,9 +373,9 @@ ul.projects ul {
   --bullet-btn-shadow-hover: 0 4px 10px rgba(47, 93, 157, 0.22);
   display: flex;
   flex-wrap: wrap;
-  gap: 0.36rem;
-  font-size: 0.875em;
-  margin: 0.75rem 0 1.25rem;
+  gap: 0.28rem; /* tighter spacing */
+  font-size: 0.7em; /* smaller text per request */
+  margin: 0.6rem 0 1rem; /* a bit more compact */
   padding: 0;
   list-style: none;
 }
@@ -379,9 +384,9 @@ ul.projects ul li {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.28rem;
+  gap: 0.22rem; /* smaller gap between contents */
   list-style: none;
-  padding: 0.32rem 0.88rem;
+  padding: 0.24rem 0.7rem; /* smaller pill size */
   margin: 0;
   border-radius: 999px;
   border: none;
@@ -500,4 +505,40 @@ ul.projects ul li.highlight:focus-within {
 .btn--glass:focus-visible {
   background: rgba(47, 93, 157, 0.34);
   border-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Social link bar */
+.link-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 18px 0 26px;
+}
+
+.link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  color: #555;
+  background: #f9f6f2;
+  border: 1px solid #eee3d9;
+  text-decoration: none;
+  transition: background .15s ease, color .15s ease, transform .06s ease;
+}
+
+.link-btn svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+  fill: currentColor;
+}
+
+.link-btn:hover,
+.link-btn:focus-visible {
+  color: #333;
+  background: #f2ece6;
+  transform: translateY(-1px);
 }
