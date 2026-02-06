@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Writings
-permalink: /blog/
+permalink: /writings/
 ---
 
 # Writings
