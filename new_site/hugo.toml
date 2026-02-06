@@ -1,0 +1,65 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Tanya Marwah'
+theme = "hugo-blog-awesome"
+
+# Enable emojis globally
+enableEmoji = true
+
+[services]
+  [services.googleAnalytics]
+    id = '' # G-MEASUREMENT_ID (add later)
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+############################## Menu ################################
+[menu]
+[[menu.main]]
+  pageRef = "/"
+  name = 'Home'
+  url = '/'
+  weight = 10
+[[menu.main]]
+  pageRef = "posts"
+  name = 'Blog'
+  url = '/posts/'
+  weight = 20
+
+############################## Params ################################
+[params]
+  sitename = "Tanya Marwah"
+  defaultColor = "auto" # dark, light, or auto
+  description = "Research Fellow at Simons Foundation / Polymathic AI"
+  mainSections = ['posts']
+  toc = true
+  tocOpen = false
+  goToTop = true
+  dateFormat = "2 Jan 2006"
+  rssFeedDescription = "summary"
+
+[params.author]
+  avatar = "avatar.png"
+  intro = "Tanya Marwah"
+  name = "Tanya Marwah"
+  description = "Research Fellow at Simons Foundation working with Polymathic AI. PhD from CMU Machine Learning Department."
+
+############################## Social Icons ################################
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/tm157/"
+
+[[params.socialIcons]]
+  name = "google-scholar"
+  url = "https://scholar.google.com/citations?hl=en&user=_Y_XvN4AAAAJ"
+
+[[params.socialIcons]]
+  name = "Rss"
+  url = "/index.xml"

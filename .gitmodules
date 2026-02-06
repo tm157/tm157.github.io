@@ -1,0 +1,9 @@
+[submodule "new_site/│"]
+	path = new_site/│
+	url = https://github.com/hugo-sid/hugo-blog-awesome.git
+[submodule "new_site/hugo-blog-awesome"]
+	path = new_site/hugo-blog-awesome
+	url = https://github.com/hugo-sid/hugo-blog-awesome.git
+[submodule "new_site/themes/hugo-blog-awesome"]
+	path = new_site/themes/hugo-blog-awesome
+	url = https://github.com/hugo-sid/hugo-blog-awesome.git
