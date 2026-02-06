@@ -1,15 +1,13 @@
-title: Tanya Marwah # your name (or website title) here
-logo: "/images/Tanya2.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  tmarwah [at] andrew [dot] cmu [dot] edu
+title: Tanya Marwah
+description: Research Fellow at the Simons Foundation
 
-theme: jekyll-theme-minimal
+permalink: /blog/:year/:month/:day/:title/
+
 plugins:
-- jekyll-remote-theme
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+- jekyll-seo-tag
+
+google_analytics: UA-000000-0
 github:
   is_project_page: false
-  show_github_url: true
   tm_github_url: https://github.com/tm157/
   tm_google_scholar: https://scholar.google.com/citations?hl=en&user=_Y_XvN4AAAAJ
-  show_google_scholar: true
