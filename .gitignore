@@ -1,0 +1,7 @@
+# Hugo generated files
+new_site/public/
+new_site/resources/_gen/
+new_site/.hugo_build.lock
+
+# OS files
+.DS_Store

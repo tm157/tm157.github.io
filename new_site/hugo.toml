@@ -37,10 +37,7 @@ enableEmoji = true
 [params]
   sitename = "Tanya Marwah"
   defaultColor = "auto" # dark, light, or auto
-  description = "Research Fellow at Simons Foundation / Polymathic AI"
-  mainSections = ['posts']
-  toc = true
-  tocOpen = false
+  description = "Research Fellow at Simons Foundation"
   goToTop = true
   dateFormat = "2 Jan 2006"
   rssFeedDescription = "summary"
@@ -49,7 +46,11 @@ enableEmoji = true
   avatar = "avatar.png"
   intro = "Tanya Marwah"
   name = "Tanya Marwah"
-  description = "Research Fellow at Simons Foundation working with Polymathic AI. PhD from CMU Machine Learning Department."
+  description = """
+I am a Research Fellow at the [Simons Foundation](https://www.simonsfoundation.org/) working with [Polymathic AI](https://polymathic-ai.org/). I recently graduated with a PhD from the Machine Learning Department at Carnegie Mellon University co-advised by [Prof. Andrej Risteski](https://www.andrejristeski.org/) and [Prof. Zachary Lipton](https://www.zacharylipton.com/). Previously, I was a masters student in the Robotics Institute at CMU and was a Siebel Scholar.
+
+I work on the empirical and theoretical foundations of Machine Learning and its applications to scientific domains. My current interests are around generative modeling of scientific phenomena, inverse problems and building scientific agents. My ultimate goal is to develop ML algorithms and methods that help us accelerate the scientific process and enable scientific discovery.
+"""
 
 ############################## Social Icons ################################
 [[params.socialIcons]]

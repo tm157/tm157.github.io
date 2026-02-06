@@ -1,0 +1,22 @@
+{{ $avatar_img := .Site.Params.author.avatar }}
+{{ $avatar_img_alt := .Site.Params.author.name }}
+{{ $image := resources.Get $avatar_img }}
+<div class="author author-left">
+    {{ with $image }}
+    {{ $image1x := $image.Fill "150x150 center webp" }}
+    {{ $image2x := $image.Fill "300x300 center webp" }}
+    <img
+        class="author-avatar"
+        src="{{ $image1x.RelPermalink }}"
+        srcset="{{ $image2x.RelPermalink }} 2x"
+        alt="{{ $avatar_img_alt }}"
+        width="{{ $image1x.Width }}"
+        height="{{ $image1x.Height }}" />
+    {{ end }}
+    <div class="author-info">
+        <h1 class="author-name">{{ .Site.Params.author.name }}</h1>
+        <div class="author-bio">
+            {{ .Site.Params.author.description | markdownify }}
+        </div>
+    </div>
+</div>

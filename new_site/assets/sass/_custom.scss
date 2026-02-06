@@ -1,0 +1,45 @@
+// Custom styles - Left-aligned author bio
+
+.author.author-left {
+  text-align: left;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  .author-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+  }
+
+  .author-info {
+    max-width: 100%;
+  }
+
+  .author-name {
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  .author-bio {
+    max-width: 100%;
+    line-height: 1.7;
+    opacity: 1;
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: $text-link-blue;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
