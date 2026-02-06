@@ -6,6 +6,8 @@ permalink: /publications/
 
 # Publications
 
+*For a complete list of my publications, please check out my [Google Scholar]({{ site.github.tm_google_scholar }}).*
+
 {% assign pubs_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
 {% for year_group in pubs_by_year %}
 ## {{ year_group.name }}
