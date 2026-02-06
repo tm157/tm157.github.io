@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   color: #3d3d3d;
   background-color: #faf9f7;
@@ -60,12 +60,12 @@ strong { color: #2c2c2c; font-weight: 600; }
 
 /* === Links === */
 a {
-  color: #7B2332;
+  color: #3a5a7a;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5a1525;
+  color: #2a4560;
   text-decoration: underline;
 }
 
