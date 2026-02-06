@@ -4,6 +4,7 @@ layout: default
 
 <img src="/images/Tanya2.png" alt="Tanya Marwah" class="profile-photo">
 
+### Hello!
 
 I am a Research Fellow at the [Simons Foundation](https://www.simonsfoundation.org/) working with [Polymathic AI](https://polymathic-ai.org/). I recently graduated with a PhD from the Machine Learning Department at Carnegie Mellon University, co-advised by [Andrej Risteski](https://www.andrejristeski.org/) and [Zachary Lipton](https://www.zacharylipton.com/). Previously, I was a masters student in the Robotics Institute at CMU and was a Siebel Scholar.
 
