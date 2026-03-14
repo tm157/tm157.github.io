@@ -1,3 +1,11 @@
+- title: "Probabilistic Retrofitting of Learned Simulators"
+  url: "https://arxiv.org/abs/2603.01949"
+  authors: "Cristiana Diaconu, Miles Cranmer, Richard E. Turner, <strong>Tanya Marwah*</strong>, Payel Mukhopadhyay*"
+  venue: "In Submission"
+  year: 2026
+  selected: true
+
+
 - title: "Pre-Generating Multi-Difficulty PDE Data for Few-Shot Neural PDE Solvers"
   url: "https://arxiv.org/abs/2511.15684"
   authors: "Naman Choudhary*, Vedant Singh*, Ameet Talwalkar, Nicholas Matthew Boffi, Mikhail Khodak**, <strong>Tanya Marwah**</strong>"
@@ -31,7 +39,7 @@
   authors: "Dhruv Rohatgi, <strong>Tanya Marwah</strong>, Zachary C. Lipton, Jianfeng Lu, Ankur Moitra, Andrej Risteski"
   venue: "NeurIPS M3L Workshop, 2024 (Oral) · ICML, 2025"
   year: 2025
-  selected: true
+  selected: false
 
 - title: "On the Benefits of Memory for Modeling Time-Dependent PDEs"
   url: "https://arxiv.org/abs/2409.02313"
