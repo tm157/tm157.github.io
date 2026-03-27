@@ -8,7 +8,7 @@ layout: default
 
 I am a Researcher at Google DeepMind working on AI and Science. I work on building models and tools that enable scientists to use AI and advance science. I enjoy learning from experts across fields and collaborating with them to push the frontiers of our understanding!
 
-Previously, I was a Research Fellow at the [Simons Foundation](https://www.simonsfoundation.org/) working with [Polymathic AI](https://polymathic-ai.org/). I recently graduated with a PhD from the Machine Learning Department at Carnegie Mellon University, co-advised by [Andrej Risteski](https://www.andrejristeski.org/) and [Zachary Lipton](https://www.zacharylipton.com/). Previously, I was a masters student in the Robotics Institute at CMU and was a Siebel Scholar.
+Previously, I was a Research Fellow at the [Simons Foundation](https://www.simonsfoundation.org/) working with [Polymathic AI](https://polymathic-ai.org/). I graduated with a PhD from the Machine Learning Department at Carnegie Mellon University, co-advised by [Andrej Risteski](https://www.andrejristeski.org/) and [Zachary Lipton](https://www.zacharylipton.com/). I also hold a masters in Robotics from CMU and was a Siebel Scholar. 
 
 During my PhD, I had the pleasure to intern at Microsoft Research, New England in 2024 with David Alvarez-Melis, Lester Mackey, and Nicolo Fusi. Furthermore, I interned with the Blueshift team at Google in 2022 with Jascha Sohl-Dickstein, Guy Gur-Ari, Behnam Neyshabur, and Yasaman Bahri, where I worked on understanding generalization capabilities of LLMs.
 
